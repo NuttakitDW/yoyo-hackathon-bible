@@ -12,9 +12,9 @@
 ---
 
 ## 0️⃣  Context Snapshot  *(≈30 min)*
-- **Hackathon name & dates:** `<fill>`
-- **Hosts / sponsors:** `<fill>`
-- **Judging criteria (weight %)**: `<fill>`
+- **Hackathon name & dates:** `ZKHACK 2025 20 - 22 JUNE (48 Hours)`
+- **Hosts / sponsors:** `ZKHACK`
+- **Judging criteria (weight %)**: `JUDGES.md`
 - **Mandatory tech / bounties:** `<fill>`
 - **Team strengths & gaps:** `<fill>`
 
