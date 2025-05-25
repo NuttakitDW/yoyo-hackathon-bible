@@ -14,8 +14,8 @@
 ## 0️⃣  Context Snapshot  *(≈30 min)*
 - **Hackathon name & dates:** `ZKHACK 2025 20 - 22 JUNE (48 Hours)`
 - **Hosts / sponsors:** `ZKHACK`
-- **Judging criteria (weight %)**: `JUDGES.md`
-- **Mandatory tech / bounties:** `<fill>`
+- **Judging criteria (weight %)**: `JUDGES.md & CRITERIA.md`
+- **Mandatory tech / bounties:** `TECH_BOUNTY.md`
 - **Team strengths & gaps:** `<fill>`
 
 ---
@@ -26,8 +26,10 @@ Brain‑dump 5–8 problems that align with the host or judges. Prioritize end�
 ```
 | # | Working Title | One‑line Problem Statement | Why It’s Hard | Target Users |
 |---|---------------|----------------------------|---------------|--------------|
-| 1 |               |                            |               |              |
-| 2 |               |                            |               |              |
+| 1 | Rent Car Location + Speed Tracking | Want to user location without infringe clients privacy | generate proof near real time & map must be high fidelity | Car Rental Bussiness |
+| 2 | ZK Tone Checker AI | We want censorship on our platform without knowing orginal content | data cleansing process is effect final result display. | Hot head community on  webboard |
+| 3 |               |                            |               |              |
+| 4 |               |                            |               |              |
 ```
 > **Tip:** If you can’t name a user persona, it’s not a problem—keep digging.
 
@@ -39,6 +41,8 @@ Rate each idea **1 = low → 5 = high**, multiply by weight.
 ```
 | Idea | User Impact (×3) | Judge Fit (×2) | Tech Difficulty (×2) | Feasible ≤48 h (×1) | Total |
 |------|------------------|----------------|----------------------|---------------------|-------|
+| Rent Car Location + Speed Tracking | A  | C | S   |  A |  B-     |
+| ZK Tone Checker AI |        B-          |       A-         |           A           |         B            |    C+   |
 |      |                  |                |                      |                     |       |
 ```
 
