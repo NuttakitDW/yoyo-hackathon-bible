@@ -43,10 +43,10 @@ Rate each idea **1 = low → 5 = high**, multiply by weight.
 
 | Idea                                     | User Impact (×3) | Judge Fit (×2) | Tech Difficulty (×2) | Feasible ≤48 h (×1) | Total | Grade |
 |------------------------------------------|------------------|----------------|----------------------|---------------------|--------|--------|
-| ZK Zone Compliance for Rental & Insure   | 5×3 = 15         | 4×2 = 8        | 4×2 = 8              | 3×1 = 3             | **34** | A      |
+| ZK Zone Compliance for Rental & Insure   | 3×3 = 9         | 4×2 = 8        | 4×2 = 8              | 3×1 = 3             | **25** | B      |
 | ZK Content Moderation AI                 | 3×3 = 9          | 5×2 = 10       | 4×2 = 8              | 2×1 = 2             | **29** | B+     |
-| ZK Remote Work Attendance                | 5×3 = 15         | 5×2 = 10       | 3×2 = 6              | 4×1 = 4             | **35** | A      |
-| ZK Access Control for Restricted Zones   | 4×3 = 12         | 4×2 = 8        | 5×2 = 10             | 2×1 = 2             | **32** | A-     |
+| ZK Remote Work Attendance                | 4×3 = 12         | 5×2 = 10       | 3×2 = 6              | 4×1 = 4             | **32** | A-      |
+| ZK Access Control for Restricted Zones   | 3×3 = 9         | 4×2 = 8        | 5×2 = 10             | 2×1 = 2             | **29** | B+     |
 | ZK Fitness Rewards Proof                 | 5×3 = 15         | 4×2 = 8        | 3×2 = 6              | 4×1 = 4             | **33** | A      |
 | ZK Delivery Zone Confirmation            | 5×3 = 15         | 4×2 = 8        | 4×2 = 8              | 4×1 = 4             | **35** | A      |
 
