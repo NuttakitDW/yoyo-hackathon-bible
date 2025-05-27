@@ -23,14 +23,16 @@
 ## 1️⃣  Problem Hunt  *(≈60 min)*
 Brain‑dump 5–8 problems that align with the host or judges. Prioritize end‑user pain points.
 
-```
-| # | Working Title | One‑line Problem Statement | Why It’s Hard | Target Users |
-|---|---------------|----------------------------|---------------|--------------|
-| 1 | Rent Car Location + Speed Tracking | Want to user location without infringe clients privacy | generate proof near real time & map must be high fidelity | Car Rental Bussiness |
-| 2 | ZK Tone Checker AI | We want censorship on our platform without knowing orginal content | data cleansing process is effect final result display. | Hot head community on  webboard |
-| 3 |               |                            |               |              |
-| 4 |               |                            |               |              |
-```
+| #  | Working Title                          | One‑line Problem Statement                                                             | Why It’s Hard                                                                  | Target Users                           |
+|----|----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------|
+| 1  | ZK Zone Compliance for Rental & Insure | Prove vehicle stayed within authorized area & speed limits, without exposing location   | Requires real-time zk proof generation + resistant to GPS spoofing             | Car rental firms, usage-based insurers |
+| 2  | ZK Content Moderation AI               | Enforce platform tone guidelines without storing or seeing raw user messages            | Proving “toxicity” or violations from transformed input is noisy & indirect    | Forums, community platforms            |
+| 3  | ZK Remote Work Attendance              | Let employers verify you worked at an approved location without revealing when or where | Time/location aggregation without trace logging or employee surveillance       | Remote-first companies, contractors     |
+| 4  | ZK Access Control for Restricted Zones | Prove a user or drone did *not* enter forbidden areas without live tracking             | Negative spatial proof is hard over complex geofences with no GPS retention    | Airports, event venues, drone operators|
+| 5  | ZK Fitness Rewards Proof               | Prove gym attendance or movement goals met without GPS leaks or time logs               | Requires interval presence proof, private step counts, tamper-resistant input  | Health apps, wellness programs, gyms   |
+| 6  | ZK Delivery Zone Confirmation          | Prove a gig worker delivered *within* allowed zone without leaking customer address     | Need strong location containment proof + protection against false claims       | Delivery apps, courier services         |
+
+
 > **Tip:** If you can’t name a user persona, it’s not a problem—keep digging.
 
 ---
@@ -38,13 +40,15 @@ Brain‑dump 5–8 problems that align with the host or judges. Prioritize end�
 ## 2️⃣  Idea Scoring Matrix  *(≈15 min / idea)*
 Rate each idea **1 = low → 5 = high**, multiply by weight.
 
-```
-| Idea | User Impact (×3) | Judge Fit (×2) | Tech Difficulty (×2) | Feasible ≤48 h (×1) | Total |
-|------|------------------|----------------|----------------------|---------------------|-------|
-| Rent Car Location + Speed Tracking | A  | C | S   |  A |  B-     |
-| ZK Tone Checker AI |        B-          |       A-         |           A           |         B            |    C+   |
-|      |                  |                |                      |                     |       |
-```
+
+| Idea                                     | User Impact (×3) | Judge Fit (×2) | Tech Difficulty (×2) | Feasible ≤48 h (×1) | Total | Grade |
+|------------------------------------------|------------------|----------------|----------------------|---------------------|--------|--------|
+| ZK Zone Compliance for Rental & Insure   | 5×3 = 15         | 4×2 = 8        | 4×2 = 8              | 3×1 = 3             | **34** | A      |
+| ZK Content Moderation AI                 | 3×3 = 9          | 5×2 = 10       | 4×2 = 8              | 2×1 = 2             | **29** | B+     |
+| ZK Remote Work Attendance                | 5×3 = 15         | 5×2 = 10       | 3×2 = 6              | 4×1 = 4             | **35** | A      |
+| ZK Access Control for Restricted Zones   | 4×3 = 12         | 4×2 = 8        | 5×2 = 10             | 2×1 = 2             | **32** | A-     |
+| ZK Fitness Rewards Proof                 | 5×3 = 15         | 4×2 = 8        | 3×2 = 6              | 4×1 = 4             | **33** | A      |
+| ZK Delivery Zone Confirmation            | 5×3 = 15         | 4×2 = 8        | 4×2 = 8              | 4×1 = 4             | **35** | A      |
 
 - **Tier Definition**
   - **S (>38)** — green‑light
